@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Format</title>
+  </head>
+  <body>
+    <div>
+      <p>
+        To use the bold tag we use <strong>&lt;b&gt;&lt;/b&gt;</strong>
+        <b>This is our Bold Text</b>
+      </p>
+      <hr />
+      <p><strong>Quaid e Azam</strong> was the founder of the Pakistan.</p>
+      <hr />
+      <i>This is our Italic Tag</i>
+      <hr />
+      <em>This is our emphasize tag</em>
+      <hr />
+      <br />
+      <mark style="padding: 12px">This is our Mark Tag</mark>
+      <hr />
+      <small>This is our Small tag</small>
+      <hr />
+      <del>This portion is not important</del>
+      <hr />
+      <ins>This is our inserted text</ins>
+      <hr />
+      <p>H<sub>2</sub>SO<sub>4</sub></p>
+      <hr />
+      <strong>(a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab</strong>
+      <hr />
+      <bdo dir="rtl">World Of Coding</bdo><br />
+      <bdo dir="ltr">World Of Coding</bdo>
+      <hr />
+      <a href="index.html">Go Back</a>
+      <hr />
+      <blockquote cite="https://en.wikipedia.org/wiki/Pakistan">
+        Pakistan,[c] officially the Islamic Republic of Pakistan,[d] is a
+        country in South Asia. It is the world's fifth-most populous country,
+        with a population of almost 242 million, and has the world's
+        second-largest Muslim population.[13] Pakistan is the 33rd-largest
+        country by area, spanning 881,913 square kilometres (340,509 square
+        miles). It has a 1,046-kilometre (650-mile) coastline along the Arabian
+        Sea and Gulf of Oman in the south, and is bordered by India to the east,
+        Afghanistan to the west, Iran to the southwest, and China to the
+        northeast.
+      </blockquote>
+      <ul style="list-style-type:circle;">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+    </ul>
+    <br><hr />
+   
+    <ol type="A">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+    </ol>
+    <br /> <hr />
+    <ul style="list-style-type: square;">
+        <li>
+            HTML
+            <ul style="list-style-type: circle;">
+                <li>
+                    Sementic Tags
+                        <ol>
+                            <li>Header</li>
+                            <li>Footer</li>
+                            <li>Main</li>
+                        </ol>
+                </li>
+                <li>
+                    Non Semantic Tags
+                    <ol>
+                        <li>div</li>
+                        <li>span</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    
+    <table cellpadding="5" cellspacing="0" border="1">
+        <thead>
+            <tr>
+                <th colspan="7">Time Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Hour</td>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+                <td>Sat</td>
+            </tr>
+            <tr>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+                <td>Sat</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <strong>Out Html Form All Fields</strong><br><br><hr>
+    <form>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" value="Asif1234" size="50" placeholder="Enter Username" required minlength="10" maxlength="10"><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter Email" autocomplete="off" size="50"><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" size="50" autofocus id="password" placeholder="Enter Password" maxlength="10"><br>
+        <label for="price">Price</label><br>
+        <input type="number" name="price" id="price" placeholder="Enter Price" style="width: 300px;" min="1" max="100"><br>
+        <label for="color">Color</label><br>
+        <input type="color" name="color" id="color" placeholder="Enter Color" style="width: 400px;"><br>
+        <label for="dateMax">Date Max</label><br>
+        <input type="date" name="dateMax" id="dateMax" max="2011-12-22" style="width: 400px;"><br>
+        <label for="dateMin">Date Max</label><br>
+        <input type="date" name="dateMin" id="dateMin" min="2011-12-22" style="width: 400px;"><br>
+        <input list="browser" name="browser">
+        <datalist id="browser">
+            <option value="Internet Explorer">Internet Explorer</option>
+            <option value="Chrome">Chrome</option>
+            <option value="Opera">Opera Mini</option>
+            <option value="Safari">Safari</option>
+            <option value="Firefox">Firefox</option>
+        </datalist><br>
+        <input list="Fruits" name="Fruits" placeholder="Enter Fruit Name">
+        <datalist id="Fruits">
+            <option value="Apple">Apple</option>           
+            <option value="Mango">Mango</option>           
+            <option value="Banana">Banana</option>           
+            <option value="Water Malen">Water Malen</option>           
+            <option value="Grapes">Grapes</option>           
+        </datalist><br>
+        <input type="range" name="range" id="range" min="30" max="70"><br>
+        <input list="cities" name="cities">
+        <datalist id="cities">
+            <option value="Lahore">Lahore</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Faisalabad">Faisalabad</option>
+            <option value="Multan">Multan</option>
+            <option value="Peshawar">Peshawar</option>
+        </datalist><br>
+        <label for="emp">Employee Name</label>
+        <select name="emp" id="emp">
+            <option value="Asif">Asif</option>
+            <option value="Afaq">Afaq</option>
+            <option value="Usman">Usman</option>
+            <option value="Saad">Saad</option>
+            <option value="Faizan">Faizan</option>
+        </select>
+    </form>
+
+    </div>
+    <br><br><br><hr>
+    <form action="#">
+        <fieldset>
+            <legend>Apply For Job</legend>
+            <label for="name">Name</label><br>
+            <input type="text" name="name" required autocapitalize autofocus placeholder="Entere Name" autocomplete="off"><br>
+            <label for="fname">Fname</label><br>
+            <input type="number" name="age" placeholder="Enter Age"><br>
+            <label for="gender">gender</label><br>
+            <input type="radio" name="gender" id="gender" value="Male" checked>&nbsp;Male&nbsp;
+            <input type="radio" name="gender" id="gender" value="Female">&nbsp;Female&nbsp;<br>
+            <input list="City" name="City" placeholder="Enter or Select City"/>
+            <datalist id="City">
+                <option value="Lahore">Lahore</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Peshawar">Peshawar</option>
+                <option value="Faisalabad">Faisalabad</option>
+            </datalist>
+            <input type="submit" value="Apply">
+        </fieldset>
+    </form>
+  </body>
+</html>
